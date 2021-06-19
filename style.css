@@ -1,0 +1,202 @@
+
+/********************************** Common to all content in body *********************/
+body{
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(117, 200, 228);
+}
+
+hr{border-style: none;border-top-style: dotted;border-color:white;border-width:4px ; width:150px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 auto 0 auto;  }
+    
+
+ 
+/**********************************  Top Container  ************************************/
+
+div.subtitle{
+    position: relative;
+    bottom:0;
+}
+pre.a{
+    font-weight: 500;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    margin-bottom: 0;      
+}
+h2.m-title {
+    font-size: 3rem;
+    font-family: 'Sacramento', cursive;
+    margin-bottom: 0;  
+    margin-top: 0px;
+    padding-top: 100px;    
+}
+h3.m-title {
+    font-size: 3rem;
+    font-family: 'Sacramento', cursive;
+    margin-bottom: 0;  
+    margin-top: 10px;
+       
+}
+
+h3{
+    font-size: 1.2rem;
+    
+}
+pre.b{
+    font-family: 'Montserrat', sans-serif;
+       
+}
+span.blink{
+    animation: animate 1.5s linear infinite;
+}
+@keyframes animate{
+    0%{
+      opacity: 0;
+    }
+    25%
+    {
+        opacity: 0.7;
+    }
+
+    50%{
+      opacity: 1;
+    75%{
+        opacity: 0.7;
+    }
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+
+
+
+div.top-container{
+    height:auto;
+    position:relative;
+    background-color: rgb(117, 200, 228);
+    padding-top:70px;    
+}
+div.title{
+    position:relative;
+    top:50px
+}
+
+.cloud2{
+    position:absolute;
+    top:100px;
+    right:400px;
+    filter: drop-shadow(7px 7px 7px #666666);
+    -webkit-filter: drop-shadow(7px 7px 7px #666666);
+}
+.cloud1{
+    position:absolute;
+    top:400px;
+    left:350px;
+    filter: drop-shadow(7px 7px 7px #666666);
+    -webkit-filter: drop-shadow(7px 7px 7px #666666);  
+}
+
+.pic{
+     position: absolute;
+     display: inline-block;
+     top:100px;
+     left:100px;
+     box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     width:250px;
+     height:250px;
+     border-radius:50%;  
+}
+
+
+div.middle-container{
+     height:500px;
+    position:relative;
+    background-color: rgb(184, 226, 240);
+    padding-bottom: 100px;
+    
+    
+}
+.skills{
+    background-color: rgb(184, 226, 240);
+    padding-bottom: 30px;
+}
+div.bio{
+    position: relative;
+    margin-top:70px;
+    right:0;
+    left:0;
+    font-size:1.5rem;
+
+   
+}
+
+div.skill-row{
+    width:50%;
+    margin:0 auto 0 auto ;
+    text-align: left;
+}
+.skillimg{
+    width:10%;
+    filter: drop-shadow(7px 7px 7px #666666);
+    -webkit-filter: drop-shadow(7px 7px 7px #666666); 
+}
+
+.contact-me{
+    position:relative;
+    background-color: rgb(184, 226, 240);
+    padding: 100px ;
+}
+.call{
+    width:65%;
+    filter: drop-shadow(7px 7px 7px #666666);
+    -webkit-filter: drop-shadow(7px 7px 7px #666666); 
+}
+.button{
+    position:absolute;
+    right:60px;
+    width:100px;
+    
+}
+.btn{
+    text-decoration: solid;
+}
+
+
+div.bottom-container{
+    position:relative;
+    background-color: #66BFBF;
+    padding : 20px 0 35px;
+
+    
+    
+}
+.end{
+    margin-bottom: 0;
+    color: white;
+    font-size: .8rem;
+    filter: drop-shadow(7px 7px 7px #666666);
+    -webkit-filter: drop-shadow(7px 7px 7px #666666); 
+}
+.footer-link{
+    text-decoration: solid;
+    margin:10px 20px;
+}
+.end:hover{
+    color: black;
+}
+.social{
+    width:2%;
+    filter: drop-shadow(7px 7px 7px #666666);
+    -webkit-filter: drop-shadow(7px 7px 7px #666666); 
+}
+
+
+
+
+
+
+
